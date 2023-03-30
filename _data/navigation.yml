@@ -1,0 +1,33 @@
+main:
+  - title: Manual
+    url: /docs/installation/mac-and-linux
+  - title: "Github"
+    url: https://github.com/Yakitrak/obsidian-cli
+
+docs:
+  - title: Installation
+    children:
+      - title: "Mac & Linux"
+        url: /docs/installation/mac-and-linux
+      - title: "Windows"
+        url: /docs/structure/
+      - title: "Build it yourself"
+        url: /docs/installation/
+
+  - title: Commands
+    children:
+      - title: "Set Default Vault"
+        url: /docs/configuration/
+      - title: "Open Note"
+        url: /docs/configuration/
+      - title: "Create Note"
+        url: /docs/navigation/
+      - title: "Move Note"
+        url: /docs/ui-text/
+      - title: "Search Notes"
+        url: /docs/authors/
+
+  - title: More Information
+    children:
+      - title: "About"
+        url: /docs/posts/
