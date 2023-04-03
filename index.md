@@ -21,7 +21,7 @@ feature_row:
   # - image_path: https://raw.githubusercontent.com/Yakitrak/obsidian-cli/main/docs/obs-usage.png
   - title: "Open Note"
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "More Information"
     btn_class: "btn--small"
     excerpt: |+
       ```bash
@@ -31,7 +31,7 @@ feature_row:
       $ obs open cookies --vault recipes
       ```
       Notes can be opened easily just by name no matter where in the vault they are.
-  - title: "Create Note"
+  - title: "Search Note"
     excerpt: |+
       ```bash
       # Creates stars.md in default vault 
@@ -41,9 +41,9 @@ feature_row:
       ```
       The notes are created in your vault and opened in Obsidian automatically.
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "More Information"
     btn_class: "btn--small"
-  - title: "Move Note"
+  - title: "Delete Note"
     excerpt: |+
       ```bash
       # abc
@@ -53,31 +53,34 @@ feature_row:
       ```
       Moves the notes within the vault and updates links wherever notes was linked.
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "More Information"
     btn_class: "btn--small"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
+  # - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - title: "Create Note"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "More Information"
+    btn_class: "btn--primary"
+  - excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+  - title: "Update Existing Note"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "More Information"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+  - title: "Create / Update Note"
+    image-path: ""
+    excerpt: |+
+      ```bash
+      # Creates stars.md in default vault 
+      $ obs create stars
+      # Creates stars.md with given content
+      $ obs create stars --content "abcde"
+      ```
+      The notes are created in your vault and opened in Obsidian automatically.
     url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "More Information"
     btn_class: "btn--primary"
 ---
 
@@ -85,8 +88,6 @@ feature_row4:
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" %}
 
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row3" type="left" %}
