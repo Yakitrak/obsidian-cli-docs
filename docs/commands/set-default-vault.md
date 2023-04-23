@@ -27,5 +27,5 @@ Default vault set to:  <vault-name>
 Default vault path set to:  ~/Documents/<vault-name>
 ``` 
 
-You can also confirm what your default vault is by going to [Print Default Vault]({{ site.base }}{% link docs/commands/print-default-vault.md %}). Otherwise you can now start using any of the commands that require a vault without having to specify the vault.
+You can also confirm what your default vault is by going to [Print Default Vault]({{ site.baseurl }}{% link docs/commands/print-default-vault.md %}). Otherwise you can now start using any of the commands that require a vault without having to specify the vault.
 
