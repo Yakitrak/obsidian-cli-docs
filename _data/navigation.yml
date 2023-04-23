@@ -10,24 +10,26 @@ docs:
       - title: "Mac & Linux"
         url: /docs/installation/mac-and-linux
       - title: "Windows"
-        url: /docs/structure/
-      - title: "Build it yourself"
-        url: /docs/installation/
+        url: /docs/installation/windows/
 
   - title: Commands
     children:
       - title: "Set Default Vault"
-        url: /docs/configuration/
+        url: /docs/commands/set-default-vault
+      - title: "Print Default Vault"
+        url: /docs/commands/print-default-vault
       - title: "Open Note"
-        url: /docs/configuration/
+        url: /docs/commands/open-note
       - title: "Create Note"
-        url: /docs/navigation/
+        url: /docs/commands/create-note
       - title: "Move Note"
-        url: /docs/ui-text/
+        url: /docs/commands/move-note
+      - title: "Delete Note"
+        url: /docs/commands/delete-note
       - title: "Search Notes"
-        url: /docs/authors/
+        url: /docs/commands/search-notes
 
   - title: More Information
     children:
       - title: "About"
-        url: /docs/posts/
+        url: /docs/info/about
