@@ -31,4 +31,4 @@ obs version
 ```
 
 Now you can run `obs` from anywhere on your system. Firstly set up your default vault by going
-to [Set Default Vault](/docs/commands/set-default-vault/)
+to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %})
