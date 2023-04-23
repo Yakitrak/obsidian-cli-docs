@@ -12,7 +12,7 @@ docs:
       - title: "Mac & Linux"
         url: /docs/installation/mac-and-linux
       - title: "Windows"
-        url: /docs/installation/windows/
+        url: /docs/installation/windows
 
   - title: Commands
     children:
@@ -33,5 +33,7 @@ docs:
 
   - title: More Information
     children:
+      - title: "Tips"
+        url: /docs/info/tips
       - title: "About"
         url: /docs/info/about

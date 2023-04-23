@@ -10,7 +10,7 @@ header:
     - label: "Full instructions"
       url: "/docs/installation/mac-and-linux"
 excerpt: |+
-  You are able to open, create, update and move notes from your vault without leaving your terminal.
+  You are able to open, create, update and move notes in your vault without leaving your terminal.
   ```zsh
    brew tap yakitrak/yakitrak
    brew install yakitrak/yakitrak/obs
@@ -66,7 +66,7 @@ feature_row3:
   - image_path: /assets/images/terminal-move-note.gif
     alt: "move note"
     title: "Move Note"
-    excerpt: "Move notes with ease, just type the current name and the new path. All other notes that link to the note will also be updated. Notes can also be renamed easily in the same way!"
+    excerpt: "Move notes from your terminal too, just type the current name and the new path. All other notes that link to the note will also be updated. Notes can also be renamed easily in the same way!"
     url: "/docs/commands/move-note"
     btn_label: "More Information"
     btn_class: "btn--small"
