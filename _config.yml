@@ -25,9 +25,7 @@ email: kartikayjainwal@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This CLI tool will let you interact with Obsidian using the terminal. You are able to open, search, create, update and move notes!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+url: "https://obsidian-cli-splash.github.io/"
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -35,6 +33,7 @@ minimal_mistakes_skin: dark
 layout: single
 plugins:
   - jekyll-feed
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
