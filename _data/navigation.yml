@@ -1,8 +1,10 @@
 main:
   - title: Manual
     url: /docs/installation/mac-and-linux
-  - title: "Github"
+    description: "How to install and use the CLI"
+  - title: Github
     url: https://github.com/Yakitrak/obsidian-cli
+    description: "The source code for the CLI"
 
 docs:
   - title: Installation
