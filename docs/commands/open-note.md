@@ -5,11 +5,9 @@ sidebar:
     nav: "docs"
 ---
 
-The open command opens a given note in Obsidian. The note argument is the note name in the vault, it does not need to be
-the entire path (although yo.u can use the path from the root of the vault if you want)
-
-**Note:** Your terminal working directory does not need to be in your vault. You can use any command from anywhere.
-{: .notice--info}
+The `open` command allows you to open a specific note within your vault. 
+The `<note-name>` refers to the name of the note in the vault, and it doesn't have to be the complete path 
+(although you can still use the path from the top-level folder of the vault if desired).
 
 To open a note in your default vault:
 
@@ -23,9 +21,14 @@ To open a note in a specific vault:
 obs open <note-name> --vault <vault-name>
 ```
 
-To open a note a where `note-path` is the path from the root of the vault to the note. For example, if you have a note at
-`/vault-name/notes/2021-01-01.md`, you can open it with:
+For example, to open a note in `vault/folder name/cake.md`, you can run:
 
 ```zsh
-obs open notes/2021-01-01.md --vault <vault-name>
+obs open cake 
+```
+
+Alternatively, you can use the full path:
+
+```zsh
+obs open "folder name/cake" 
 ```

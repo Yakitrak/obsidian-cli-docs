@@ -8,15 +8,15 @@ header:
   # overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
     - label: "Full instructions"
-      url: "/docs/installation/mac-and-linux"
+      url: "/docs/install/mac-and-linux"
 excerpt: |+
-  You are able to open, create, update and move notes in your vault without leaving your terminal.
+  Seamlessly manage notes in your vaults without leaving the terminal!
   ```zsh
    brew tap yakitrak/yakitrak
    brew install yakitrak/yakitrak/obs
   ```
 intro:
-  - excerpt: "Obsidian CLI allows you to interact with your vault from the terminal without being in the vault folder or using the full path, just type name of the note and it will take care of the rest"
+  - excerpt: "Obsidian CLI enables you to conveniently access your vault from the terminal, without having to navigate to the vault folder or provide the full file path. Simply enter the name of the desired note, and the CLI will take care of the rest."
 feature_row:
   - title: "Open Note"
     url: "docs/commands/open-note"
@@ -29,7 +29,7 @@ feature_row:
       # opens cookies.md from recipes vault
       $ obs open cookies --vault other-vault
       ```
-      Notes can be opened in Obsidian just by note name, no matter where in the vault they are.
+      Open notes in Obsidian by simply typing the note name, regardless of their location within the vault.
   - title: "Search Note"
     excerpt: |+
       ```zsh
@@ -38,7 +38,7 @@ feature_row:
       # Opens with search query in other-vault
       $ obs create stars --vault other-vault
       ```
-      Search for any text, it will open the vault with the search query.
+      Perform text searches with ease, Obsidian will open with the query results displayed in the search tab.
     url: "/docs/commands/search-notes"
     btn_label: "More Information"
     btn_class: "btn--small"
@@ -48,9 +48,9 @@ feature_row:
       # Deletes the note in default vault
       $ obs delete abc
       # Deletes the note in other-vault
-      $ obs default abc --vault other-vault
+      $ obs delete abc --vault other-vault
       ```
-      Deleting the note is as easy as creating it.
+      Deleting a note is just as straightforward as creating one.
     url: "/docs/commands/delete-note"
     btn_label: "More Information"
     btn_class: "btn--small"
@@ -58,7 +58,7 @@ feature_row2:
   - image_path: /assets/images/terminal-create-note.gif
     alt: "create note"
     title: "Create Note"
-    excerpt: "Simply type the name of the note you want to create. You can also update notes by `--overwrite` or `--append` flags"
+    excerpt: "Effortlessly create new notes by typing the desired note name. Additionally, you can update existing notes using the convenient `--overwrite` or `--append` flags."
     url: "/docs/commands/create-note"
     btn_label: "More Information"
     btn_class: "btn--small"
@@ -66,7 +66,7 @@ feature_row3:
   - image_path: /assets/images/terminal-move-note.gif
     alt: "move note"
     title: "Move Note"
-    excerpt: "Move notes from your terminal too, just type the current name and the new path. All other notes that link to the note will also be updated. Notes can also be renamed easily in the same way!"
+    excerpt: "Relocate notes by specifying the current and new paths, and watch as linked notes are automatically updated. Notes can also be renamed in the same way!"
     url: "/docs/commands/move-note"
     btn_label: "More Information"
     btn_class: "btn--small"

@@ -3,13 +3,10 @@
 ## About
 Website provides instructions on how to download and install the [Obsidian CLI](https://github.com/Yakitrak/obsidian-cli).
 
-It is hosted using [GitHub Pages](https://pages.github.com/) on [obsidian-cli-splash.github.io](https://obsidian-cli-splash.github.io/)
+It is hosted using [GitHub Pages](https://pages.github.com/) on [yakitrak.github.io/obs](https://yakitrak.github.io/obs/).
 
 ## Development
 
 ```bash
-bundle exec jekyll serve
-
-bundle exec jekyll build
-
+bundle exec jekyll serve --baseurl ''
 ```

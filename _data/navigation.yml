@@ -1,6 +1,6 @@
 main:
   - title: Manual
-    url: /docs/installation/mac-and-linux
+    url: /docs/install/mac-and-linux
     description: "How to install and use the CLI"
   - title: Github
     url: https://github.com/Yakitrak/obsidian-cli
@@ -10,10 +10,9 @@ docs:
   - title: Installation
     children:
       - title: "Mac & Linux"
-        url: /docs/installation/mac-and-linux
+        url: /docs/install/mac-and-linux
       - title: "Windows"
-        url: /docs/installation/windows
-
+        url: /docs/install/windows
   - title: Commands
     children:
       - title: "Set Default Vault"
@@ -30,10 +29,15 @@ docs:
         url: /docs/commands/delete-note
       - title: "Search Notes"
         url: /docs/commands/search-notes
+      - title: "General Tips"
+        url: /docs/commands/tips
+  - title: About
+    url: about
 
-  - title: More Information
-    children:
-      - title: "Tips"
-        url: /docs/info/tips
-      - title: "About"
-        url: /docs/info/about
+docs-mini:
+  - title: Installation
+    url: /docs/install/mac-and-linux
+  - title: Commands
+    url: /docs/commands/set-default-vault
+  - title: About
+    url: /about

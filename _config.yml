@@ -33,6 +33,21 @@ minimal_mistakes_skin: dark
 layout: single
 plugins:
   - jekyll-feed
+author:
+    name: Kartikay Jainwal
+    avatar: /assets/images/me.png
+    bio: " "
+    links:
+      - label: "Github"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/yakitrak"
+      - label: "LinkedIn"
+        icon: "fab fa-fw fa-linkedin"
+        url: "https://www.linkedin.com/in/kjainwal/"
+      - label: "Email"
+        icon: "fas fa-fw fa-envelope-square"
+        url: "mailto:kartikayjainwal@gmail.com"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

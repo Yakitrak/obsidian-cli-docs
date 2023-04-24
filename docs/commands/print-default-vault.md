@@ -5,15 +5,15 @@ sidebar:
     nav: "docs"
 ---
 
-Once you have set a default vault using [Set Default Vault](./set-default-vault.md), you can confirm that it has been set by running:
+Once you have set a default vault using [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}), you can confirm that it has been set by running:
 
 ```zsh
-obs print-default-vault
+obs print-default
 ```
 
 This will print:
 ```zsh
 Default vault name: <vault-name>
-Default vault path: ~/Documents/<vault-name>
+Default vault path: <vault-path>
 
 ```

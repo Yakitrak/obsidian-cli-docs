@@ -5,10 +5,7 @@ sidebar:
     nav: "docs"
 ---
 
-The create command creates (or update if one exists) a note in Obsidian. The note argument is the note name in the vault which will be created in the root of the vault, but you can pass a path to create a note in a subdirectory.
-
-**Note:** Your terminal working directory does not need to be in your vault. You can use any command from anywhere.
-{: .notice--info}
+The `create` command creates (or update if one exists) a note in Obsidian. The `<note-name>` is the note name which will be created in top level of the vault, but you can instead pass a path instead to create a note in a subfolder of the vault.
 
 To create a note in your default vault:
 
@@ -22,27 +19,32 @@ To create a note in a specific vault:
 obs create <note-name> --vault <vault-name>
 ```
 
-To create a note a where `note-path` is the path from the root of the vault to the note. For example, if you want to create a note at `/vault-name/notes/2021-01-01.md`, you can create it with:
+To create a note a where `<note-name>` is the path from the top folder of the vault to the note. For example, if you want to create a note in `vault-name/folder/another folder/cookies`, you can create it with:
 
 ```zsh
-obs create notes/2021-01-01.md --vault <vault-name>
+obs create "folder/another folder/cookies"
 ```
 
-To create a note with content in your default vault:
+To create a note with content:
 
 ```zsh
 obs create <note-name> --content <content>
 ```
-
-By default, if the note already exists, a new note will be created with a number appended to the end of the note name. For example, if you have a note called `2021-01-01.md` and you try to create a note with the same name, the new note will be called `2021-01-01-1.md`. 
-
-You can override the note content with the `--override` flag:
+For example 
 
 ```zsh
-obs create <note-name> --content <content> --override
+obs create cookies --content "I like cookies"
 ```
 
-Or you can append the content to the end of the note with the `--append` flag:
+By default, if the note already exists, a new note will be created with a number appended to the end of the note name. For example, if you have a note called `cookies` and you try to create a note with the same name, the new note will be called `cookies1`. 
+
+You can overwrite the note content with the `--overwrite` flag which will replace the content of the note with the new content:
+
+```zsh
+obs create <note-name> --content <content> --overwrite
+```
+
+Or you can add more content to the end of the note with the `--append` flag:
 
 ```zsh
 obs create <note-name> --content <content> --append

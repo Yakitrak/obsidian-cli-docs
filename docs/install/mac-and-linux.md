@@ -4,9 +4,10 @@ title: "Mac & Linux Installation"
 sidebar:
     nav: "docs"
 ---
-#### Step 1: Install Homebrew
----
 
+#### Step 1: Install Homebrew
+
+---
 Follow instructions [here](https://brew.sh/) to install homebrew package manager
 
 #### Step 2: Tap the yakitrak repository
@@ -30,5 +31,4 @@ brew install yakitrak/yakitrak/obs
 obs version
 ```
 
-Now you can run `obs` from anywhere on your system. Firstly set up your default vault by going
-to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %})
+After installation, you can now run `obs` from anywhere on your system. To set up your default vault, please refer to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}).
