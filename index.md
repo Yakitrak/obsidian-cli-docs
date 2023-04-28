@@ -36,7 +36,7 @@ feature_row:
       # Opens with search query in default vault
       $ obs search stars
       # Opens with search query in other-vault
-      $ obs create stars --vault other-vault
+      $ obs search stars --vault other-vault
       ```
       Perform text searches with ease, Obsidian will open with the query results displayed in the search tab.
     url: "/docs/commands/search-notes"
