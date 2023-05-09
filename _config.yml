@@ -38,6 +38,9 @@ author:
     avatar: /assets/images/me.png
     bio: " "
     links:
+      - label: "kartikay.dev"
+        icon: "fas fa-fw fa-globe"
+        url: "https://kartikay.dev"
       - label: "Github"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/yakitrak"
@@ -47,6 +50,7 @@ author:
       - label: "Email"
         icon: "fas fa-fw fa-envelope-square"
         url: "mailto:kartikayjainwal@gmail.com"
+
 
 
 # Exclude from processing.
