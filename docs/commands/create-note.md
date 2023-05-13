@@ -49,3 +49,9 @@ Or you can add more content to the end of the note with the `--append` flag:
 ```zsh
 obs create <note-name> --content <content> --append
 ```
+
+To open the created note, you can use the `--open` flag:
+
+```zsh
+obs create <note-name> --open
+```
