@@ -24,7 +24,7 @@ scoop bucket add scoop-yakitrak https://github.com/yakitrak/scoop-yakitrak.git
 scoop install obs
 ```
 
-#### Step 3: Confirm installation
+#### Step 4: Confirm installation
 
 ```zsh
 obsd --version

@@ -30,7 +30,7 @@ brew install yakitrak/yakitrak/obs
 **Note:** If you want to upgrade to the latest version, you can use `brew upgrade yakitrak/yakitrak/obs`
 {: .notice--info}
 
-#### Step 3: Confirm installation
+#### Step 4: Confirm installation
 
 ---
 
