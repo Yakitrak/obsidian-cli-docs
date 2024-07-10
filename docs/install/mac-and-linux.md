@@ -53,3 +53,13 @@ obsidian-cli --version
 ```
 
 After installation, you can now run `obsidian-cli` from anywhere on your system. To set up your default vault, please refer to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}).
+
+## Alias
+
+`obsidian-cli` could be alias to anything you like in a shell config of your choice.
+
+`.zshrc`:
+
+```zsh
+alias obsdn='obsidian-cli'
+```
