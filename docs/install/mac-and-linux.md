@@ -5,13 +5,17 @@ sidebar:
   nav: "docs"
 ---
 
-#### Step 1: Install Homebrew
+## Homebrew
+
+---
+
+### Step 1: Install Homebrew
 
 ---
 
 Follow instructions [here](https://brew.sh/) to install homebrew package manager
 
-#### Step 2: Tap the yakitrak repository
+### Step 2: Tap the yakitrak repository
 
 ---
 
@@ -19,7 +23,7 @@ Follow instructions [here](https://brew.sh/) to install homebrew package manager
 brew tap yakitrak/yakitrak
 ```
 
-#### Step 3: Install Obsidian CLI
+### Step 3: Install Obsidian CLI
 
 ---
 
@@ -30,7 +34,17 @@ brew install yakitrak/yakitrak/obs
 **Note:** If you want to upgrade to the latest version, you can use `brew upgrade yakitrak/yakitrak/obs`
 {: .notice--info}
 
-#### Step 4: Confirm installation
+## AUR
+
+---
+
+Maintained by [Jonathan Neidel](https://www.jneidel.com/)
+
+```zsh
+yay -S obsd-bin
+```
+
+## Confirm installation
 
 ---
 
