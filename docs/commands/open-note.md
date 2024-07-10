@@ -12,23 +12,23 @@ The `<note-name>` refers to the name of the note in the vault, and it doesn't ha
 To open a note in your default vault:
 
 ```zsh
-obsd open <note-name>
+obsidian-cli open <note-name>
 ```
 
 To open a note in a specific vault:
 
 ```zsh
-obsd open <note-name> --vault <vault-name>
+obsidian-cli open <note-name> --vault <vault-name>
 ```
 
 For example, to open a note in `vault/folder name/cake.md`, you can run:
 
 ```zsh
-obsd open cake 
+obsidian-cli open cake 
 ```
 
 Alternatively, you can use the full path:
 
 ```zsh
-obsd open "folder name/cake" 
+obsidian-cli open "folder name/cake" 
 ```

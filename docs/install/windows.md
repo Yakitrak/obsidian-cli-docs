@@ -27,9 +27,9 @@ scoop install obsidian-cli
 #### Step 4: Confirm installation
 
 ```zsh
-obsd --version
+obsidian-cli --version
 ```
 
-After installation, you can now run `obsd` from anywhere on your system. To set up your default vault, please refer to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}).
+After installation, you can now run `obsidian-cli` from anywhere on your system. To set up your default vault, please refer to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}).
 
 

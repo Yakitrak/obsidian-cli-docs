@@ -11,11 +11,11 @@ The `search` commands opens Obsidian on the search tab with the search query pro
 To search in your default vault:
 
 ```zsh
-obsd search <search-query>
+obsidian-cli search <search-query>
 ```
 
 To search in a specific vault:
 
 ```zsh
-obsd search <search-query> --vault <vault-name>
+obsidian-cli search <search-query> --vault <vault-name>
 ```

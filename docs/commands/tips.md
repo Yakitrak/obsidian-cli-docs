@@ -11,7 +11,7 @@ sidebar:
 **Tip 2:** When using the `open` or `create` commands you do not need to specify the full path to note, however for the `delete` or `move` commands, you need to give the path (start from the top level of the vault folder).
 {: .notice--info}
 
-**Tip 3:** When working with text containing spaces, you need to wrap them in quotes. For example, `obsd open "My Note"` or `obsd create "My Note" --content "My note content"`.
+**Tip 3:** When working with text containing spaces, you need to wrap them in quotes. For example, `obsidian-cli open "My Note"` or `obsidian-cli create "My Note" --content "My note content"`.
 {: .notice--info}
 
 **Tip 4:** You can rename files by using the [Move Note]({{ site.baseurl }}{% link docs/commands/move-note.md %}) command which will also update all the links in other notes.
