@@ -24,10 +24,10 @@ brew tap yakitrak/yakitrak
 ---
 
 ```zsh
-brew install yakitrak/yakitrak/obs
+brew install yakitrak/yakitrak/obsidian-cli
 ```
 
-**Note:** If you want to upgrade to the latest version, you can use `brew upgrade yakitrak/yakitrak/obs`
+**Note:** If you want to upgrade to the latest version, you can use `brew upgrade yakitrak/yakitrak/obsidian-cli`
 {: .notice--info}
 
 #### Step 4: Confirm installation

@@ -13,7 +13,7 @@ excerpt: |+
   Seamlessly manage notes in your vaults without leaving the terminal!
   ```zsh
    brew tap yakitrak/yakitrak
-   brew install yakitrak/yakitrak/obs
+   brew install yakitrak/yakitrak/obsidian-cli
   ```
 intro:
   - excerpt: "Obsidian CLI enables you to conveniently access your vault from the terminal, without having to navigate to the vault folder or provide the full file path. Simply enter the name of the desired note, and the CLI will take care of the rest."
