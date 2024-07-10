@@ -21,7 +21,7 @@ scoop bucket add scoop-yakitrak https://github.com/yakitrak/scoop-yakitrak.git
 
 ---
 ```powershell
-scoop install obs
+scoop install obsidian-cli
 ```
 
 #### Step 4: Confirm installation
