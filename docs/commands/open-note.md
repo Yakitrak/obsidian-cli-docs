@@ -12,23 +12,23 @@ The `<note-name>` refers to the name of the note in the vault, and it doesn't ha
 To open a note in your default vault:
 
 ```zsh
-obs open <note-name>
+obsd open <note-name>
 ```
 
 To open a note in a specific vault:
 
 ```zsh
-obs open <note-name> --vault <vault-name>
+obsd open <note-name> --vault <vault-name>
 ```
 
 For example, to open a note in `vault/folder name/cake.md`, you can run:
 
 ```zsh
-obs open cake 
+obsd open cake 
 ```
 
 Alternatively, you can use the full path:
 
 ```zsh
-obs open "folder name/cake" 
+obsd open "folder name/cake" 
 ```

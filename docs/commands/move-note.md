@@ -10,21 +10,21 @@ The `move` command moves a note in your vault. The `<current-note-path>` and `<n
 To move a note in your default vault:
 
 ```zsh
-obs move <current-note-path> <new-note-path>
+obsd move <current-note-path> <new-note-path>
 ```
 
 To move a note in a specific vault:
 
 ```zsh
-obs move <current-note-path> <new-note-path> --vault <vault-name>
+obsd move <current-note-path> <new-note-path> --vault <vault-name>
 ```
 
 To move (or rename) a note and open it  
 ```zsh
-obs move <note-path> <new-note-path> --open
+obsd move <note-path> <new-note-path> --open
 ```
 
-**Note:** This command can also be used to rename a note by providing the same path for both `<current-note-path>` and `<new-note-path>`. For example `obs move "folder name/cake" "folder name/cookies"` will rename the note `cake` to `cookies`.
+**Note:** This command can also be used to rename a note by providing the same path for both `<current-note-path>` and `<new-note-path>`. For example `obsd move "folder name/cake" "folder name/cookies"` will rename the note `cake` to `cookies`.
 {: .notice--info}
 
 

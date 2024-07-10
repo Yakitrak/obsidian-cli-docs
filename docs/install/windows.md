@@ -27,9 +27,9 @@ scoop install obs
 #### Step 3: Confirm installation
 
 ```zsh
-obs --version
+obsd --version
 ```
 
-After installation, you can now run `obs` from anywhere on your system. To set up your default vault, please refer to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}).
+After installation, you can now run `obsd` from anywhere on your system. To set up your default vault, please refer to [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}).
 
 

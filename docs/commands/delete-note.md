@@ -10,13 +10,13 @@ The `delete` command deletes a note in Obsidian. The `<note-path>` is the path t
 To delete a note in your default vault:
 
 ```zsh
-obs delete <note-path>
+obsd delete <note-path>
 ```
 
 To delete a note in a specific vault:
 
 ```zsh
-obs delete <note-path> --vault <vault-name>
+obsd delete <note-path> --vault <vault-name>
 ```
 
 

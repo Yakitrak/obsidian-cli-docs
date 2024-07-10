@@ -8,7 +8,7 @@ sidebar:
 Once you have set a default vault using [Set Default Vault]({{ site.baseurl }}{% link docs/commands/set-default-vault.md %}), you can confirm that it has been set by running:
 
 ```zsh
-obs print-default
+obsd print-default
 ```
 
 This will print:

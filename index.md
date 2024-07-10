@@ -25,18 +25,18 @@ feature_row:
     excerpt: |+
       ```zsh
       # opens cake.md from default vault
-      $ obs open cake
+      $ obsd open cake
       # opens cookies.md from recipes vault
-      $ obs open cookies --vault other-vault
+      $ obsd open cookies --vault other-vault
       ```
       Open notes in Obsidian by simply typing the note name, regardless of their location within the vault.
   - title: "Search Note"
     excerpt: |+
       ```zsh
       # Opens with search query in default vault
-      $ obs search stars
+      $ obsd search stars
       # Opens with search query in other-vault
-      $ obs search stars --vault other-vault
+      $ obsd search stars --vault other-vault
       ```
       Perform text searches with ease, Obsidian will open with the query results displayed in the search tab.
     url: "/docs/commands/search-notes"
@@ -46,9 +46,9 @@ feature_row:
     excerpt: |+
       ```zsh
       # Deletes the note in default vault
-      $ obs delete abc
+      $ obsd delete abc
       # Deletes the note in other-vault
-      $ obs delete abc --vault other-vault
+      $ obsd delete abc --vault other-vault
       ```
       Deleting a note is just as straightforward as creating one.
     url: "/docs/commands/delete-note"
