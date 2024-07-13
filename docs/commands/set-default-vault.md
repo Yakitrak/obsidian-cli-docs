@@ -10,7 +10,7 @@ the `--vault` flag. However, if you are using the same vault frequently, you can
 mean that you do not need to specify the vault every time you use a command. You can set your default vault by running:
 
 ```zsh
-obs set-default <vault-name>
+obsidian-cli set-default <vault-name>
 ```
 
 Where `<vault>-name` is the name of your vault. This is not the path of the vault but the name of the folder. For
@@ -24,7 +24,7 @@ If your folder has spaces in it, you will need to wrap the name in quotes. For e
 located at `~/Documents/My Vault`, then you would run:
 
 ```zsh
-obs set-default "My Vault"
+obsidian-cli set-default "My Vault"
 ```
 
 If you have set your default vault successfully, you will see the following message:

@@ -23,8 +23,8 @@ title: Obsidian CLI
 name: Kartikay Jainwal
 email: kartikayjainwal@gmail.com
 url: "https://yakitrak.github.io/"
-baseurl: "obs/" # the subpath of your site, e.g. /blog
-repository: "yakitrak/obs"
+baseurl: "obsidian-cli/" # the subpath of your site, e.g. /blog
+repository: "yakitrak/obsidian-cli-website"
 description: >- # this means to ignore newlines until "baseurl:"
   This CLI tool will let you interact with Obsidian using the terminal. You are able to open, search, create, update and move notes!
 # Build settings
@@ -34,25 +34,22 @@ layout: single
 plugins:
   - jekyll-feed
 author:
-    name: Kartikay Jainwal
-    avatar: /assets/images/me.png
-    bio: " "
-    links:
-      - label: "kartikay.dev"
-        icon: "fas fa-fw fa-globe"
-        url: "https://kartikay.dev"
-      - label: "Github"
-        icon: "fab fa-fw fa-github"
-        url: "https://github.com/yakitrak"
-      - label: "LinkedIn"
-        icon: "fab fa-fw fa-linkedin"
-        url: "https://www.linkedin.com/in/kjainwal/"
-      - label: "Email"
-        icon: "fas fa-fw fa-envelope-square"
-        url: "mailto:kartikayjainwal@gmail.com"
-
-
-
+  name: Kartikay Jainwal
+  avatar: /assets/images/me.png
+  bio: " "
+  links:
+    - label: "kartikay.dev"
+      icon: "fas fa-fw fa-globe"
+      url: "https://kartikay.dev"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yakitrak"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kjainwal/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kartikayjainwal@gmail.com"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
