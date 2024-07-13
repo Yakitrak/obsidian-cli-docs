@@ -3,7 +3,8 @@
 ## About
 Website provides instructions on how to download and install the [Obsidian CLI](https://github.com/Yakitrak/obsidian-cli).
 
-It is hosted using [GitHub Pages](https://pages.github.com/) on [yakitrak.github.io/obsidian-cli](https://yakitrak.github.io/obsidian-cli/).
+It is hosted using [GitHub Pages](https://pages.github.com/) on [yakitrak.github.io/obsidian-cli-docs](https://yakitrak.github.io/obsidian-cli-docs/).
+
 
 ## Development
 

@@ -23,8 +23,9 @@ title: Obsidian CLI
 name: Kartikay Jainwal
 email: kartikayjainwal@gmail.com
 url: "https://yakitrak.github.io/"
-baseurl: "obsidian-cli/" # the subpath of your site, e.g. /blog
-repository: "yakitrak/obsidian-cli-website"
+baseurl: "obsidian-cli-docs/" # the subpath of your site, e.g. /blog
+
+repository: "yakitrak/obsidian-cli-docs"
 description: >- # this means to ignore newlines until "baseurl:"
   This CLI tool will let you interact with Obsidian using the terminal. You are able to open, search, create, update and move notes!
 # Build settings
